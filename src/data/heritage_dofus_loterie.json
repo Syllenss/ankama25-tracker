@@ -1,0 +1,195 @@
+{
+  "source": "https://methodwakfu.com/accueil/lheritage-des-dofus/",
+  "saisons": [
+    {
+      "saison": "Émeraude",
+      "periode": "5 Janvier au 2 Mars",
+      "items": [
+        {
+          "rarete": "Commun",
+          "nom": "Cape Ultime Paquetage",
+          "id_wakassets": "13232854",
+          "url_asset": "https://vertylo.github.io/wakassets/items/13232854.png"
+        },
+        {
+          "rarete": "Rare",
+          "nom": "Coiffe Diadème de l'extrême",
+          "id_wakassets": "13432853",
+          "url_asset": "https://vertylo.github.io/wakassets/items/13432853.png"
+        },
+        {
+          "rarete": "Épique",
+          "nom": "Bottes démesurées",
+          "id_wakassets": "11932855",
+          "url_asset": "https://vertylo.github.io/wakassets/items/11932855.png"
+        },
+        {
+          "rarete": "Légendaire",
+          "nom": "Familier Frapace",
+          "id_wakassets": "82732856",
+          "url_asset": "https://vertylo.github.io/wakassets/items/82732856.png"
+        }
+      ]
+    },
+    {
+      "saison": "Turquoise",
+      "periode": "3 Mars au 5 Mai",
+      "items": [
+        {
+          "rarete": "Commun",
+          "nom": "Cape Manteau Double-Chance",
+          "id_wakassets": "13232902",
+          "url_asset": "https://vertylo.github.io/wakassets/items/13232902.png"
+        },
+        {
+          "rarete": "Rare",
+          "nom": "Coiffe Masque Impromptu",
+          "id_wakassets": "13432901",
+          "url_asset": "https://vertylo.github.io/wakassets/items/13432901.png"
+        },
+        {
+          "rarete": "Rare",
+          "nom": "Bottes Hasardeuses",
+          "id_wakassets": "11932903",
+          "url_asset": "https://vertylo.github.io/wakassets/items/11932903.png"
+        },
+        {
+          "rarete": "Épique",
+          "nom": "Familier Aguabi",
+          "id_wakassets": "82732894",
+          "url_asset": "https://vertylo.github.io/wakassets/items/82732894.png"
+        },
+        {
+          "rarete": "Légendaire",
+          "nom": "La panoplie complète",
+          "id_wakassets": null,
+          "url_asset": null,
+          "note": "Bundle des 4 items ci-dessus (Cape Manteau Double-Chance, Coiffe Masque Impromptu, Bottes Hasardeuses, Familier Aguabi), pas d'ID/asset propre"
+        }
+      ]
+    },
+    {
+      "saison": "Pourpre",
+      "periode": "5 Mai au 7 Juillet",
+      "items": [
+        {
+          "rarete": "Commun",
+          "nom": "Capyrolyse",
+          "id_wakassets": null,
+          "url_asset": "https://methodwakfu.com/wp-content/uploads/2026/01/Pourpre_Capyrolyse.png",
+          "note": "Cape - image hébergée sur methodwakfu.com, pas d'ID Wakassets trouvé"
+        },
+        {
+          "rarete": "Rare",
+          "nom": "Volcasque",
+          "id_wakassets": null,
+          "url_asset": "https://methodwakfu.com/wp-content/uploads/2026/01/Pourpre_Volcasque.png",
+          "note": "Coiffe - image hébergée sur methodwakfu.com, pas d'ID Wakassets trouvé"
+        },
+        {
+          "rarete": "Rare",
+          "nom": "Basaltes",
+          "id_wakassets": "11932906",
+          "url_asset": "https://vertylo.github.io/wakassets/items/11932906.png",
+          "note": "Bottes"
+        },
+        {
+          "rarete": "Épique",
+          "nom": "Familier Ignemikou",
+          "id_wakassets": "82732896",
+          "url_asset": "https://vertylo.github.io/wakassets/items/82732896.png"
+        },
+        {
+          "rarete": "Légendaire",
+          "nom": "La panoplie complète",
+          "id_wakassets": null,
+          "url_asset": null,
+          "note": "Bundle des 4 items ci-dessus (Capyrolyse, Volcasque, Basaltes, Familier Ignemikou), pas d'ID/asset propre"
+        }
+      ]
+    },
+    {
+      "saison": "Ocre",
+      "periode": "7 Juillet au 8 Septembre",
+      "items": [
+        {
+          "rarete": "Commun",
+          "nom": "Cape Ecorce Protectrice",
+          "id_wakassets": null,
+          "url_asset": "https://methodwakfu.com/wp-content/uploads/2026/01/Ocre_CapeEcorceProtectrice.png"
+        },
+        {
+          "rarete": "Rare",
+          "nom": "Coiffe Cimes du destin",
+          "id_wakassets": null,
+          "url_asset": "https://methodwakfu.com/wp-content/uploads/2026/01/Ocre_CoiffeCimeDestin.png"
+        },
+        {
+          "rarete": "Rare",
+          "nom": "Solerets providentiels",
+          "id_wakassets": null,
+          "url_asset": "https://methodwakfu.com/wp-content/uploads/2026/01/Ocre_SoleretsProvidentiels.png",
+          "note": "Bottes"
+        },
+        {
+          "rarete": "Épique",
+          "nom": "Familier Tirrakou",
+          "id_wakassets": null,
+          "url_asset": "https://methodwakfu.com/wp-content/uploads/2026/01/Ocre_Tirrakou.png"
+        },
+        {
+          "rarete": "Légendaire",
+          "nom": "La panoplie complète",
+          "id_wakassets": null,
+          "url_asset": null,
+          "note": "Bundle des 4 items ci-dessus (Cape Ecorce Protectrice, Coiffe Cimes du destin, Solerets providentiels, Familier Tirrakou), pas d'ID/asset propre"
+        }
+      ]
+    },
+    {
+      "saison": "Ivoire",
+      "periode": "8 Septembre au 3 Novembre",
+      "items": [
+        {
+          "rarete": "Commun",
+          "nom": "Manteau de Lumière",
+          "id_wakassets": null,
+          "url_asset": "https://methodwakfu.com/wp-content/uploads/2026/01/Ivoire_ManteauLumiere.png",
+          "note": "Cape"
+        },
+        {
+          "rarete": "Rare",
+          "nom": "Heaume de l'Aube",
+          "id_wakassets": null,
+          "url_asset": "https://methodwakfu.com/wp-content/uploads/2026/01/Ivoire_HeaumeAube.png",
+          "note": "Coiffe"
+        },
+        {
+          "rarete": "Rare",
+          "nom": "Bottillons Lucioles",
+          "id_wakassets": null,
+          "url_asset": "https://methodwakfu.com/wp-content/uploads/2026/01/Ivoire_BottillonsLucioles.png",
+          "note": "Bottes"
+        },
+        {
+          "rarete": "Épique",
+          "nom": "Familier Dardikil",
+          "id_wakassets": null,
+          "url_asset": "https://methodwakfu.com/wp-content/uploads/2026/01/Ivoire_Dardikil.png"
+        },
+        {
+          "rarete": "Légendaire",
+          "nom": "La panoplie complète",
+          "id_wakassets": null,
+          "url_asset": null,
+          "note": "Bundle des 4 items ci-dessus (Manteau de Lumière, Heaume de l'Aube, Bottillons Lucioles, Familier Dardikil), pas d'ID/asset propre"
+        }
+      ]
+    },
+    {
+      "saison": "Ébène",
+      "periode": "À venir",
+      "items": []
+    }
+  ]
+}
