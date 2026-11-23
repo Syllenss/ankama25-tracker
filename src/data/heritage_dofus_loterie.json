@@ -188,8 +188,44 @@
     },
     {
       "saison": "Ébène",
-      "periode": "À venir",
-      "items": []
+      "periode": "3 Novembre au 31 Décembre",
+      "items": [
+        {
+          "rarete": "Commun",
+          "nom": "Voile des Ténèbres",
+          "id_wakassets": null,
+          "url_asset": "https://www.dofuspourlesnoobs.com/uploads/1/3/0/1/13010384/tuto3z102voile_orig.png",
+          "note": "Cape - liste et images de dofuspourlesnoobs.com (côté Dofus, noms Wakfu à confirmer)"
+        },
+        {
+          "rarete": "Rare",
+          "nom": "Pointe du Crépuscule",
+          "id_wakassets": null,
+          "url_asset": "https://www.dofuspourlesnoobs.com/uploads/1/3/0/1/13010384/tuto3z103pointe_orig.png",
+          "note": "Coiffe"
+        },
+        {
+          "rarete": "Rare",
+          "nom": "Égide Obscure",
+          "id_wakassets": null,
+          "url_asset": "https://www.dofuspourlesnoobs.com/uploads/1/3/0/1/13010384/tuto3z104egide_orig.png",
+          "note": "Bouclier"
+        },
+        {
+          "rarete": "Épique",
+          "nom": "Grougalou",
+          "id_wakassets": null,
+          "url_asset": "https://www.dofuspourlesnoobs.com/uploads/1/3/0/1/13010384/tuto3z105grougalou_orig.png",
+          "note": "Familier"
+        },
+        {
+          "rarete": "Légendaire",
+          "nom": "La panoplie complète",
+          "id_wakassets": null,
+          "url_asset": null,
+          "note": "Bundle des 4 items ci-dessus (Voile des Ténèbres, Pointe du Crépuscule, Égide Obscure, Grougalou), pas d'ID/asset propre"
+        }
+      ]
     }
   ]
 }

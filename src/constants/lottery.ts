@@ -4,6 +4,7 @@ import {
   Gem,
   type LucideIcon,
   PawPrint,
+  Shield,
   Shirt,
   Sparkles,
 } from "lucide-react";
@@ -16,6 +17,7 @@ export const CATEGORIES = [
   "Cape",
   "Coiffe",
   "Bottes",
+  "Bouclier",
   "Familier",
   "Panoplie",
   "Objet",
@@ -30,9 +32,12 @@ export type LotteryItem = {
   name: string;
   rarity: Rarity;
   category: Category;
-  /** Placeholder icon until the real artwork is wired in. */
+  /** Fallback icon shown when the item has no artwork. */
   icon: LucideIcon;
-  /** Remote artwork URL from the source data, kept for later use. */
+  /**
+   * Local artwork `/items/<id>.webp` (public/items), or null when the source
+   * data has no image for the item (bundles, items without artwork yet).
+   */
   assetUrl: string | null;
   /**
    * For a bundle ("panoplie complète"): ids of the season pieces it groups.
@@ -63,6 +68,7 @@ const CATEGORY_ICONS: Record<Category, LucideIcon> = {
   Cape: Shirt,
   Coiffe: Crown,
   Bottes: Footprints,
+  Bouclier: Shield,
   Familier: PawPrint,
   Panoplie: Gem,
   Objet: Sparkles,
@@ -82,6 +88,7 @@ const DEFAULT_ACCENT = "oklch(0.7 0 0)";
 const CATEGORY_RULES: readonly [Category, RegExp][] = [
   ["Panoplie", /panoplie/],
   ["Familier", /familier/],
+  ["Bouclier", /bouclier/],
   ["Bottes", /bott|soleret|basalte/],
   ["Coiffe", /coiffe|casque|heaume|masque|diad/],
   ["Cape", /cape|manteau/],
@@ -121,15 +128,16 @@ function toItem(
   }
   const note = "note" in raw ? raw.note : undefined;
   const category = inferCategory(raw.nom, note);
+  const id = `${seasonId}-${slugify(raw.nom)}`;
   return {
-    id: `${seasonId}-${slugify(raw.nom)}`,
+    id,
     seasonId,
     seasonName,
     name: raw.nom,
     rarity: raw.rarete,
     category,
     icon: CATEGORY_ICONS[category],
-    assetUrl: raw.url_asset,
+    assetUrl: raw.url_asset === null ? null : `/items/${id}.webp`,
     pieceIds: [],
   };
 }

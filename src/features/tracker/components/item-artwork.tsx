@@ -10,7 +10,7 @@ type ItemArtworkProps = {
   className?: string;
 };
 
-/** Remote artwork from the source data, with the category icon as fallback. */
+/** Local artwork from public/items, with the category icon as fallback. */
 export function ItemArtwork({ item, className }: ItemArtworkProps) {
   const [hasFailed, setHasFailed] = useState(false);
   const Icon = item.icon;
